@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { v4 as uuid } from 'uuid';
 import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
 import './App.css';
@@ -23,7 +24,7 @@ function App() {
 
   const addTask = (text) => {
     const newTask = {
-      id: Date.now(),
+      id: uuid(),
       text,
       completed: false,
     };

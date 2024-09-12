@@ -2,11 +2,11 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(119, 21, 78);
+  
 }
 
 .App {
-  max-width: 600px;
+  max-width: 1200px;
   margin: auto;
   padding: 20px;
 }

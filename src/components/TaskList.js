@@ -4,7 +4,7 @@ import './styles/common.css';
 
 function TaskList({ tasks, toggleTaskCompletion, deleteTask }) {
   return (
-    <ul>
+    <ul style={{ paddingTop: '20px' }}>
       {tasks.map((task) => (
         <TaskItem
           key={task.id}

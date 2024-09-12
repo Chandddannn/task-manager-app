@@ -4,7 +4,7 @@ import './styles/common.css';
 
 function TaskItem({ task, toggleTaskCompletion, deleteTask }) {
   return (
-    <li > 
+    <li style={{marginTop: '20px'}}> 
     <label className='checkbox-btn' style={{ }}> 
     <label for="checkbox"></label>
       <input
